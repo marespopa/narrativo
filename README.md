@@ -46,9 +46,7 @@ Narrativo’s interface is inspired by calming earth tones—soft greens, warm b
 
 ## 🛠️ Built With  
 
-- **Remix** – Lightning-fast framework for building web apps.  
-- **Jotai** – Simple and flexible state management.  
-- **Chart.js** – Visualize mood trends beautifully.  
+- **AstroJS** – The web framework for content-driven websites.
 - **Tailwind CSS** – Clean and modern styling.  
 
 ---
