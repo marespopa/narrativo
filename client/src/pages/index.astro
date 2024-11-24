@@ -1,0 +1,90 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Narrativo - Your personal journal">
+  <!-- Intro Section -->
+  <section class="py-20 text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-5xl font-extrabold mb-6">Your Stories, Your Space</h2>
+      <p class="text-lg max-w-xl mx-auto mb-8 text-gray-600">
+        Narrativo is a distraction-free journal that keeps your thoughts private
+        and accessible, wherever you go.
+      </p>
+      <a
+        href="/get-started"
+        class="inline-block bg-blue-500 text-white px-8 py-4 rounded hover:bg-blue-600 transition"
+        >Get Started</a
+      >
+    </div>
+  </section>
+
+  <!-- Separator -->
+  <hr class="border-gray-200 my-12" />
+
+  <!-- Features Section -->
+  <section class="py-20">
+    <div class="container mx-auto px-6 max-w-screen-md">
+      <h3 class="text-3xl font-bold mb-10 text-center">
+        Why Choose Narrativo?
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Feature Card -->
+        <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">100% Offline 📴</h4>
+          <p>
+            Write anywhere, anytime, without distractions or internet access.
+          </p>
+        </div>
+
+        <!-- Feature Card -->
+        <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Your Storage ☁️</h4>
+          <p>
+            Save your journal in Google Drive, OneDrive, or locally—your choice.
+          </p>
+        </div>
+
+        <!-- Feature Card -->
+        <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Minimal Design 🎨</h4>
+          <p>A clean interface designed to help you focus on your words.</p>
+        </div>
+
+        <!-- Feature Card -->
+        <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Privacy First 🔒</h4>
+          <p>Your data stays yours—always.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Separator -->
+  <hr class="border-gray-200 my-12" />
+
+  <!-- Testimonials Section -->
+  <section class="py-20">
+    <div class="container mx-auto px-6 max-w-screen-md text-center">
+      <h3 class="text-3xl font-bold mb-10">What Our Users Say 🌟</h3>
+
+      <!-- Testimonial 1 -->
+      <blockquote
+        class="bg-gray-100 border-l-4 border-blue-300 p-4 italic my-8 max-w-prose mx-auto"
+      >
+        "Narrativo has completely changed how I journal. I love that my data
+        stays private and under my control."
+        <footer class="mt-4 font-semibold text-gray-800">— Alex J.</footer>
+      </blockquote>
+
+      <!-- Testimonial 2 -->
+      <blockquote
+        class="bg-gray-100 border-l-4 border-blue-300 p-4 italic my-8 max-w-prose mx-auto"
+      >
+        "The offline functionality is a game-changer. I can write anywhere
+        without worrying about internet access."
+        <footer class="mt-4 font-semibold text-gray-800">— Jamie L.</footer>
+      </blockquote>
+    </div>
+  </section>
+</Layout>

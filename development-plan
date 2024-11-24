@@ -1,0 +1,48 @@
+---
+title: Development Plan
+description: Development plan for narrative - journaling app.
+tags:
+  - plan
+---
+# Narrativo - Development Plan
+
+## File Structure
+
+``` markdown
+src/    
+├── components/    
+│   ├── Navbar.astro       # Navigation bar component    
+│   ├── Footer.astro       # Footer component    
+│   ├── StoryCard.astro    # Reusable card component for stories    
+│   ├── BlogCard.astro     # Reusable card component for blogs    
+│   └── ContactForm.astro  # Contact form component    
+│
+├── layouts/
+│   ├── MainLayout.astro   # Main layout wrapper for pages    
+│   └── StoryLayout.astro  # Layout specific to single story pages    
+│
+├── pages/
+│   ├── index.astro        # Homepage    
+│   ├── about.astro        # About page    
+│   ├── contact.astro      # Contact page    
+│   ├── privacy-policy.astro # Privacy policy page    
+│   ├── terms.astro        # Terms of service page    
+│   │
+│   ├── blog/    
+│   │   ├── index.astro    # Blog listing page    
+│   │   └── [slug].astro   # Individual blog post pages    
+│   │    
+│   ├── stories/    
+│   │   ├── index.astro    # Stories listing page    
+│   │   └── [slug].astro   # Individual story pages    
+│   │    
+│   └── dashboard/    
+│       └── index.astro    # User dashboard page    
+│    
+├── styles/    
+│   ├── globals.css        # Global styles with Tailwind imports    
+│   └── custom.css         # Custom reusable styles (if needed)    
+│    
+└── utils/    
+    └── helpers.js         # Utility functions (e.g., format dates)
+```    
